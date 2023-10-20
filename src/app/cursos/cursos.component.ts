@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class CursosComponent {
 
+  portalName: string;
+  cursos: string[] = ['Java', 'Ext JS', 'Angular'];
+
+  constructor() {
+    this.portalName = "http://loiane.training/"
+  }
 }
