@@ -7,6 +7,7 @@ import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
 import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
 import { CursosModule } from './cursos/cursos.module';
 import { BindingPlaygroundModule } from './binding-playground/binding-playground.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BindingPlaygroundModule } from './binding-playground/binding-playground
     BrowserModule,
     AppRoutingModule,
     CursosModule,
-    BindingPlaygroundModule
+    BindingPlaygroundModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

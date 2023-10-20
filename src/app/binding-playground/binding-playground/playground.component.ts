@@ -9,7 +9,7 @@ export class BindingPlaygroundComponent {
 
   url = 'http://loiane.training'
   cursoAngular = true;
-  urlImagem = 'https://lorempixel.com/400/200/nature';
+  urlImagem = '';
 
   getValor() {
     return 1;
